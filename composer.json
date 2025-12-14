@@ -1,0 +1,21 @@
+{
+    "name": "thebbapp/rest-api-wordpress-base",
+    "description": "WordPress REST API base functions required for BbApp.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BbApp\\RestAPI\\WordPressBase\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.24",
+        "thebbapp/rest-api": "0.1.0"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://thebbapp.com/donate"
+        }
+    ]
+}
